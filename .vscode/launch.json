@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug house-finder",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "tsx",
+      "program": "${workspaceFolder}/src/index.ts",
+      "sourceMaps": true,
+      "console": "integratedTerminal"
+    }
+  ]
+}

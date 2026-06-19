@@ -1,0 +1,23 @@
+{
+  "name": "house-finder",
+  "version": "1.0.0",
+  "description": "Monitor real estate websites for new listings",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js",
+    "watch": "tsx watch src/index.ts",
+    "debug": "node --inspect-brk --import tsx/esm src/index.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.21",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
