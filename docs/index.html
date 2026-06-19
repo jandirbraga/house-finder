@@ -138,9 +138,22 @@
             border-left: 4px solid #667eea;
         }
 
-        .property-card.unchecked {
-            border-left: 4px solid #FF6B6B;
-            background: #FFF5F5;
+        .property-card.site-jhsimoveis {
+            background: rgba(220, 252, 231, 0.5);
+            border-left-color: #16a34a;
+        }
+
+        .property-card.site-ssimoveis {
+            background: rgba(254, 226, 226, 0.5);
+            border-left-color: #dc2626;
+        }
+
+        .property-card.unchecked.site-jhsimoveis {
+            background: rgba(187, 247, 208, 0.6);
+        }
+
+        .property-card.unchecked.site-ssimoveis {
+            background: rgba(254, 202, 202, 0.6);
         }
 
         .property-card:hover {
@@ -369,7 +382,9 @@
             try {
                 // Carrega o JSON do repositório
                 const response = await fetch('https://raw.githubusercontent.com/jandirbraga/house-finder/main/data/house.json');
+                const isFirstLoad = Object.keys(allHouses).length === 0;
                 allHouses = await response.json();
+                if (isFirstLoad) renderFilters();
                 render();
                 updateStats();
             } catch (error) {
@@ -428,8 +443,10 @@
                 const siteClass = getSiteClass(house.site);
                 const isNew = house.status === 'UNCHECKED';
 
+                const siteCardClass = `site-${house.site.toLowerCase().replace(/[^a-z]/g, '')}`;
+
                 return `
-                    <div class="property-card ${isNew ? 'unchecked' : ''}">
+                    <div class="property-card ${isNew ? 'unchecked' : ''} ${siteCardClass}">
                         <div class="property-header">
                             ${isNew ? '<span class="property-status status-new">🆕 NOVIDADE</span>' : ''}
                             <span class="property-site ${siteClass}">${house.site}</span>
@@ -500,7 +517,6 @@
 
         // Carregar dados ao iniciar
         loadData();
-        renderFilters();
 
         // Recarregar dados a cada 30 segundos
         setInterval(loadData, 30000);
