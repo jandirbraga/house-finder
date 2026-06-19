@@ -245,5 +245,13 @@
     "price": "R$ 850,00",
     "url": "https://ssimoveismg.com.br/imovel/casa-no-bairro-centro-pirapora-aluguel-RS850/125138",
     "status": "UNCHECKED"
+  },
+  "ss-1231": {
+    "id": "ss-1231",
+    "site": "SS Imóveis",
+    "title": "Apartamento no Santos Dumont",
+    "price": "R$ 1.500,00",
+    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-santos-dumont-pirapora-aluguel-RS1500/141206",
+    "status": "UNCHECKED"
   }
 }
