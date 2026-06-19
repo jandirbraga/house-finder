@@ -68,7 +68,7 @@ const BODY = new URLSearchParams({
 }).toString();
 
 function toListingUrl(listing: JhsListing): string {
-  return `${BASE_URL}/imovel/${listing.codigo}/${listing.titulo}`;
+  return `${BASE_URL}/imovel/${listing.titulo}/${listing.codigo}`;
 }
 
 function toListingTitle(listing: JhsListing): string {
