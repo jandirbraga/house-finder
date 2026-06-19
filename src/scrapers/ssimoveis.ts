@@ -32,8 +32,14 @@ export class SsImoveis implements Scraper {
 
       const link = $card.find('a[href*="/imovel/"]').attr("href");
       const titleAlt = $card.find("img").attr("alt");
-      const cardText = $card.text();
-      const priceMatch = cardText.match(/R\$\s*([\d.,]+)/);
+      const priceParagraphs = $card.find("p").filter((_, el) => /R\$/.test($(el).text()));
+      const rentalParagraph = priceParagraphs.filter((_, el) => $(el).find("small").text().includes("Aluguel")).first();
+      const priceSource = rentalParagraph.length
+        ? rentalParagraph.text()
+        : priceParagraphs.length <= 1
+          ? $card.text()
+          : null;
+      const priceMatch = priceSource ? priceSource.match(/R\$\s*([\d.,]+)/) : null;
       const price = priceMatch ? priceMatch[1] : "N/A";
       const codeMatch = $card.find(".badge-code").text();
       const code = codeMatch.replace("Cód.", "").trim() || "N/A";
