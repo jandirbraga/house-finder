@@ -403,7 +403,7 @@
         }
 
         function getSiteClass(site) {
-            return `site-${site.toLowerCase().replace(/[^a-z]/g, '')}`;
+            return `site-${site.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z]/g, '')}`;
         }
 
         function filterHouses() {
@@ -443,7 +443,7 @@
                 const siteClass = getSiteClass(house.site);
                 const isNew = house.status === 'UNCHECKED';
 
-                const siteCardClass = `site-${house.site.toLowerCase().replace(/[^a-z]/g, '')}`;
+                const siteCardClass = `site-${house.site.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z]/g, '')}`;
 
                 return `
                     <div class="property-card ${isNew ? 'unchecked' : ''} ${siteCardClass}">
