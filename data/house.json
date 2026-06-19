@@ -134,110 +134,6 @@
     "address": "Rua Rotary, 716 — N SENHORA APARECIDA",
     "status": "UNCHECKED"
   },
-  "ss-1431": {
-    "id": "ss-1431",
-    "site": "SS Imóveis",
-    "title": "Apartamentos no Santos Dumont",
-    "price": "R$ 2.200,00",
-    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-santos-dumont-pirapora-aluguel-RS2200/184425",
-    "status": "UNCHECKED"
-  },
-  "ss-812": {
-    "id": "ss-812",
-    "site": "SS Imóveis",
-    "title": "Kit net no Nossa Senhora de Fátima",
-    "price": "R$ 1.900,00",
-    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-nossa-senhora-de-fatima-pirapora-aluguel-RS1900/125185",
-    "status": "UNCHECKED"
-  },
-  "ss-1252": {
-    "id": "ss-1252",
-    "site": "SS Imóveis",
-    "title": "Apartamento no Centro",
-    "price": "R$ 1.860,00",
-    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-centro-pirapora-aluguel-RS1860/145322",
-    "status": "UNCHECKED"
-  },
-  "ss-764": {
-    "id": "ss-764",
-    "site": "SS Imóveis",
-    "title": "Kitnet no Centro",
-    "price": "R$ 1.100,00",
-    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-centro-pirapora-aluguel-RS1100/125151",
-    "status": "UNCHECKED"
-  },
-  "ss-1438": {
-    "id": "ss-1438",
-    "site": "SS Imóveis",
-    "title": "Galpão no Santos Dumont",
-    "price": "R$ 20.000,00",
-    "url": "https://ssimoveismg.com.br/imovel/galpao-no-bairro-santos-dumont-pirapora-aluguel-RS20000/185715",
-    "status": "UNCHECKED"
-  },
-  "ss-1448": {
-    "id": "ss-1448",
-    "site": "SS Imóveis",
-    "title": "Galpão no Cinquentenário",
-    "price": "R$ 10.000,00",
-    "url": "https://ssimoveismg.com.br/imovel/galpao-no-bairro-cinquentenario-pirapora-aluguel-RS10000/187364",
-    "status": "UNCHECKED"
-  },
-  "ss-1450": {
-    "id": "ss-1450",
-    "site": "SS Imóveis",
-    "title": "Galpão no Santos Dumont",
-    "price": "R$ 9.000,00",
-    "url": "https://ssimoveismg.com.br/imovel/galpao-no-bairro-santos-dumont-pirapora-aluguel-RS9000/187582",
-    "status": "UNCHECKED"
-  },
-  "ss-1481": {
-    "id": "ss-1481",
-    "site": "SS Imóveis",
-    "title": "Ponto comercial no Santos Dumont",
-    "price": "R$ 7.700,00",
-    "url": "https://ssimoveismg.com.br/imovel/galpao-no-bairro-santos-dumont-pirapora-aluguel-RS7700/196440",
-    "status": "UNCHECKED"
-  },
-  "ss-1391": {
-    "id": "ss-1391",
-    "site": "SS Imóveis",
-    "title": "Galpão no Centro",
-    "price": "R$ 7.000,00",
-    "url": "https://ssimoveismg.com.br/imovel/galpao-no-bairro-centro-pirapora-aluguel-RS7000/176234",
-    "status": "UNCHECKED"
-  },
-  "ss-1439": {
-    "id": "ss-1439",
-    "site": "SS Imóveis",
-    "title": "Ponto comercial no Centro",
-    "price": "R$ 7.000,00",
-    "url": "https://ssimoveismg.com.br/imovel/sala-comercial-no-bairro-santo-antonio-pirapora-aluguel-RS7000/185749",
-    "status": "UNCHECKED"
-  },
-  "ss-1441": {
-    "id": "ss-1441",
-    "site": "SS Imóveis",
-    "title": "Galpões comerciais no Santos Dumont",
-    "price": "R$ 6.500,00",
-    "url": "https://ssimoveismg.com.br/imovel/galpao-no-bairro-santos-dumont-pirapora-aluguel-RS6500/185852",
-    "status": "UNCHECKED"
-  },
-  "ss-1405": {
-    "id": "ss-1405",
-    "site": "SS Imóveis",
-    "title": "Ponto comercial no Centro",
-    "price": "R$ 6.000,00",
-    "url": "https://ssimoveismg.com.br/imovel/sala-comercial-no-bairro-centro-pirapora-aluguel-RS6000/179497",
-    "status": "UNCHECKED"
-  },
-  "ss-1484": {
-    "id": "ss-1484",
-    "site": "SS Imóveis",
-    "title": "Galpões no Cícero Passos",
-    "price": "R$ 6.000,00",
-    "url": "https://ssimoveismg.com.br/imovel/galpao-no-bairro-cicero-passos-pirapora-aluguel-RS6000/197575",
-    "status": "UNCHECKED"
-  },
   "ss-1370": {
     "id": "ss-1370",
     "site": "SS Imóveis",
@@ -294,6 +190,30 @@
     "url": "https://ssimoveismg.com.br/imovel/casa-no-bairro-santo-antonio-pirapora-aluguel-RS2300/151387",
     "status": "UNCHECKED"
   },
+  "ss-1431": {
+    "id": "ss-1431",
+    "site": "SS Imóveis",
+    "title": "Apartamentos no Santos Dumont",
+    "price": "R$ 2.200,00",
+    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-santos-dumont-pirapora-aluguel-RS2200/184425",
+    "status": "UNCHECKED"
+  },
+  "ss-812": {
+    "id": "ss-812",
+    "site": "SS Imóveis",
+    "title": "Kit net no Nossa Senhora de Fátima",
+    "price": "R$ 1.900,00",
+    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-nossa-senhora-de-fatima-pirapora-aluguel-RS1900/125185",
+    "status": "UNCHECKED"
+  },
+  "ss-1252": {
+    "id": "ss-1252",
+    "site": "SS Imóveis",
+    "title": "Apartamento no Centro",
+    "price": "R$ 1.860,00",
+    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-centro-pirapora-aluguel-RS1860/145322",
+    "status": "UNCHECKED"
+  },
   "ss-808": {
     "id": "ss-808",
     "site": "SS Imóveis",
@@ -308,6 +228,14 @@
     "title": "Casa no São João",
     "price": "R$ 1.400,00",
     "url": "https://ssimoveismg.com.br/imovel/casa-no-bairro-sao-joao-batista-pirapora-aluguel-RS1400/196240",
+    "status": "UNCHECKED"
+  },
+  "ss-764": {
+    "id": "ss-764",
+    "site": "SS Imóveis",
+    "title": "Kitnet no Centro",
+    "price": "R$ 1.100,00",
+    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-centro-pirapora-aluguel-RS1100/125151",
     "status": "UNCHECKED"
   },
   "ss-728": {
