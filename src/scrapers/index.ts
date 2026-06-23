@@ -1,10 +1,14 @@
 import type { Scraper } from "../types.js";
 import { JhsImoveis } from "./jhsimoveis.js";
-import { VivaReal } from "./vivareal.js";
 import { SsImoveis } from "./ssimoveis.js";
+import { EuniceBragaCorretora } from "./eunicebragacorretora.js";
+import { AlphaImoveis } from "./alphaimoveis.js";
+import { AntonioVieira } from "./antoniovieira.js";
 
 export const scrapers: Scraper[] = [
   new JhsImoveis(),
-  new VivaReal(),
   new SsImoveis(),
+  new EuniceBragaCorretora(),
+  new AlphaImoveis(),
+  new AntonioVieira(),
 ];

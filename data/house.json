@@ -253,5 +253,347 @@
     "price": "R$ 1.500,00",
     "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-santos-dumont-pirapora-aluguel-RS1500/141206",
     "status": "UNCHECKED"
+  },
+  "eunice-220": {
+    "id": "eunice-220",
+    "site": "Eunice Braga Corretora",
+    "title": "Casa — Industrial, Pirapora/MG",
+    "price": "R$ 1.750",
+    "url": "https://eunicebragacorretora.com/imovel/220",
+    "address": "Rua Cristiano Machado — Industrial",
+    "status": "UNCHECKED"
+  },
+  "eunice-215": {
+    "id": "eunice-215",
+    "site": "Eunice Braga Corretora",
+    "title": "Ponto Comercial — Santo Antônio, Pirapora/MG",
+    "price": "R$ 1.700",
+    "url": "https://eunicebragacorretora.com/imovel/215",
+    "address": "Rua Januária — Santo Antônio",
+    "status": "UNCHECKED"
+  },
+  "eunice-216": {
+    "id": "eunice-216",
+    "site": "Eunice Braga Corretora",
+    "title": "Casa — Bom Jesus, Pirapora/MG",
+    "price": "R$ 1.400",
+    "url": "https://eunicebragacorretora.com/imovel/216",
+    "address": "Rua Silva Jardim — Bom Jesus",
+    "status": "UNCHECKED"
+  },
+  "eunice-217": {
+    "id": "eunice-217",
+    "site": "Eunice Braga Corretora",
+    "title": "Casa — Industrial, Pirapora/MG",
+    "price": "R$ 1.600",
+    "url": "https://eunicebragacorretora.com/imovel/217",
+    "address": "Rua Oscar Paraguaçu — Industrial",
+    "status": "UNCHECKED"
+  },
+  "eunice-218": {
+    "id": "eunice-218",
+    "site": "Eunice Braga Corretora",
+    "title": "Galpão — Bom Jesus, Pirapora/MG",
+    "price": "R$ 5.900",
+    "url": "https://eunicebragacorretora.com/imovel/218",
+    "address": "Rua Treze de Maio — Bom Jesus",
+    "status": "UNCHECKED"
+  },
+  "eunice-213": {
+    "id": "eunice-213",
+    "site": "Eunice Braga Corretora",
+    "title": "Ponto Comercial — São Geraldo, Pirapora/MG",
+    "price": "R$ 1.200",
+    "url": "https://eunicebragacorretora.com/imovel/213",
+    "address": "Rua José Pedro da Silva — São Geraldo",
+    "status": "UNCHECKED"
+  },
+  "eunice-210": {
+    "id": "eunice-210",
+    "site": "Eunice Braga Corretora",
+    "title": "Casa — Cícero Passos, Pirapora/MG",
+    "price": "R$ 2.000",
+    "url": "https://eunicebragacorretora.com/imovel/210",
+    "address": "Rua Rômulo Passos — Cícero Passos",
+    "status": "UNCHECKED"
+  },
+  "eunice-193": {
+    "id": "eunice-193",
+    "site": "Eunice Braga Corretora",
+    "title": "Casa — Santo Antônio, Pirapora/MG",
+    "price": "R$ 2.000",
+    "url": "https://eunicebragacorretora.com/imovel/193",
+    "address": "Rua Paraopeba — Santo Antônio",
+    "status": "UNCHECKED"
+  },
+  "eunice-18": {
+    "id": "eunice-18",
+    "site": "Eunice Braga Corretora",
+    "title": "Casa — Santo Antônio, Pirapora/MG",
+    "price": "R$ 1.800",
+    "url": "https://eunicebragacorretora.com/imovel/18",
+    "address": "Avenida Independêcia — Santo Antônio",
+    "status": "UNCHECKED"
+  },
+  "alpha-386": {
+    "id": "alpha-386",
+    "site": "Alpha Imóveis",
+    "title": "Oswaldo Koot — Santos Dumont, Pirapora - MG",
+    "price": "R$ 1.300,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/386-apartamento-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "alpha-200": {
+    "id": "alpha-200",
+    "site": "Alpha Imóveis",
+    "title": "Casa S�o Geraldo — S�o Geraldo, Pirapora - MG",
+    "price": "R$ 950,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/200-casa-aluguel-sao-geraldo-pirapora-mg.html",
+    "address": "S�o Geraldo",
+    "status": "UNCHECKED"
+  },
+  "alpha-214": {
+    "id": "alpha-214",
+    "site": "Alpha Imóveis",
+    "title": "Galp�o Av. Bonif�cio Machado de Miranda — Cicero Passos, Pirapora - MG",
+    "price": "R$ 600,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/214-galpao-aluguel-cicero-passos-pirapora-mg.html",
+    "address": "Cicero Passos",
+    "status": "UNCHECKED"
+  },
+  "alpha-226": {
+    "id": "alpha-226",
+    "site": "Alpha Imóveis",
+    "title": "Loja Santos Dumont — Santos Dumont, Pirapora - MG",
+    "price": "R$ 13.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/226-loja-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "alpha-55": {
+    "id": "alpha-55",
+    "site": "Alpha Imóveis",
+    "title": "Galp�o Av Jeferssom Gitirana — Nova Pirapora, Pirapora - MG",
+    "price": "R$ 4.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/55-galpao-aluguel-nova-pirapora-pirapora-mg.html",
+    "address": "Nova Pirapora",
+    "status": "UNCHECKED"
+  },
+  "alpha-445": {
+    "id": "alpha-445",
+    "site": "Alpha Imóveis",
+    "title": "Benjamin Constant — Santos Dumont, Pirapora - MG",
+    "price": "R$ 1.800,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/445-galpao-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "alpha-326": {
+    "id": "alpha-326",
+    "site": "Alpha Imóveis",
+    "title": "Ponto Comercial Centro — Centro, Pirapora - MG",
+    "price": "R$ 3.500,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/326-ponto-comercial-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
+  },
+  "alpha-546": {
+    "id": "alpha-546",
+    "site": "Alpha Imóveis",
+    "title": "Jonas da Silva, Industrial — Industrial, Pirapora - MG",
+    "price": "R$ 1.400,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/546-casa-aluguel-industrial-pirapora-mg.html",
+    "address": "Industrial",
+    "status": "UNCHECKED"
+  },
+  "alpha-454": {
+    "id": "alpha-454",
+    "site": "Alpha Imóveis",
+    "title": "Presidente Kennedy, Centro — Centro, Pirapora - MG",
+    "price": "R$ 1.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/454-casa-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
+  },
+  "alpha-472": {
+    "id": "alpha-472",
+    "site": "Alpha Imóveis",
+    "title": "Camilo dos Santos, Santos Dumont — Santos Dumont, Pirapora - MG",
+    "price": "R$ 1.200,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/472-casa-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "alpha-471": {
+    "id": "alpha-471",
+    "site": "Alpha Imóveis",
+    "title": "Jefferson Gitirana, Cicero Passos — Cicero Passos, Pirapora - MG",
+    "price": "R$ 1.900,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/471-apartamento-aluguel-cicero-passos-pirapora-mg.html",
+    "address": "Cicero Passos",
+    "status": "UNCHECKED"
+  },
+  "alpha-516": {
+    "id": "alpha-516",
+    "site": "Alpha Imóveis",
+    "title": "Camilo dos Santos, Santos Dumont — Santos Dumont, Pirapora - MG",
+    "price": "Consulte o valor",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/516-galpao-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "alpha-494": {
+    "id": "alpha-494",
+    "site": "Alpha Imóveis",
+    "title": "Loja para Aluguel — Santos Dumont, Pirapora - MG",
+    "price": "R$ 20.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/494-loja-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "alpha-553": {
+    "id": "alpha-553",
+    "site": "Alpha Imóveis",
+    "title": "Padre Paulo Vicente — Bom Jesus, Pirapora - MG",
+    "price": "R$ 1.500,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/553-casa-aluguel-bom-jesus-pirapora-mg.html",
+    "address": "Bom Jesus",
+    "status": "UNCHECKED"
+  },
+  "alpha-535": {
+    "id": "alpha-535",
+    "site": "Alpha Imóveis",
+    "title": "Camilo dos Santos, Santos Dumont — Santos Dumont, Pirapora - MG",
+    "price": "Consulte o valor",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/535-ponto-comercial-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "alpha-534": {
+    "id": "alpha-534",
+    "site": "Alpha Imóveis",
+    "title": "Camilo dos Santos, Santos Dumont — Santos Dumont, Pirapora - MG",
+    "price": "Consulte o valor",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/534-loja-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "alpha-522": {
+    "id": "alpha-522",
+    "site": "Alpha Imóveis",
+    "title": "Avenida Beira Rio — Bom Jesus, Pirapora - MG",
+    "price": "Consulte o valor",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/522-casa-aluguel-bom-jesus-pirapora-mg.html",
+    "address": "Bom Jesus",
+    "status": "UNCHECKED"
+  },
+  "alpha-558": {
+    "id": "alpha-558",
+    "site": "Alpha Imóveis",
+    "title": "Rua Um, Residencial Porto Belo — Residencial Porto Bello, Pirapora - MG",
+    "price": "R$ 1.200,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/558-casa-aluguel-residencial-porto-bello-pirapora-mg.html",
+    "address": "Residencial Porto Bello",
+    "status": "UNCHECKED"
+  },
+  "alpha-561": {
+    "id": "alpha-561",
+    "site": "Alpha Imóveis",
+    "title": "Rua A, Primavera — Jardim Primavera, Pirapora - MG",
+    "price": "R$ 750,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/561-casa-aluguel-jardim-primavera-pirapora-mg.html",
+    "address": "Jardim Primavera",
+    "status": "UNCHECKED"
+  },
+  "alpha-552": {
+    "id": "alpha-552",
+    "site": "Alpha Imóveis",
+    "title": "Herculano Cintra Mour�o — S�o Jo�o Batista, Pirapora - MG",
+    "price": "R$ 6.500,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/552-galpao-aluguel-sao-joao-batista-pirapora-mg.html",
+    "address": "S�o Jo�o Batista",
+    "status": "UNCHECKED"
+  },
+  "alpha-555": {
+    "id": "alpha-555",
+    "site": "Alpha Imóveis",
+    "title": "Marieta Santinha Lima — Cidade Jardim, Pirapora - MG",
+    "price": "R$ 6.600,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/555-galpao-aluguel-cidade-jardim-pirapora-mg.html",
+    "address": "Cidade Jardim",
+    "status": "UNCHECKED"
+  },
+  "alpha-557": {
+    "id": "alpha-557",
+    "site": "Alpha Imóveis",
+    "title": "Herculano Cintra Mour�o — S�o Jo�o Batista, Pirapora - MG",
+    "price": "R$ 7.500,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/557-galpao-aluguel-sao-joao-batista-pirapora-mg.html",
+    "address": "S�o Jo�o Batista",
+    "status": "UNCHECKED"
+  },
+  "alpha-559": {
+    "id": "alpha-559",
+    "site": "Alpha Imóveis",
+    "title": "Otavio Carneiro — Santo Antonio, Pirapora - MG",
+    "price": "R$ 1.600,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/559-loja-aluguel-santo-antonio-pirapora-mg.html",
+    "address": "Santo Antonio",
+    "status": "UNCHECKED"
+  },
+  "alpha-560": {
+    "id": "alpha-560",
+    "site": "Alpha Imóveis",
+    "title": "Bahia — Centro, Pirapora - MG",
+    "price": "R$ 3.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/560-ponto-comercial-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
+  },
+  "alpha-565": {
+    "id": "alpha-565",
+    "site": "Alpha Imóveis",
+    "title": "PIO XII — Santos Dumont, Pirapora - MG",
+    "price": "R$ 9.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/565-galpao-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "antonio-233": {
+    "id": "antonio-233",
+    "site": "Antonio Vieira Imóveis",
+    "title": "Apartamento para Aluguel — CENTRO, Pirapora - MG",
+    "price": "R$ 1.400,00",
+    "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/233-apartamento-aluguel-centro-pirapora-mg.html",
+    "address": "CENTRO",
+    "status": "UNCHECKED"
+  },
+  "antonio-225": {
+    "id": "antonio-225",
+    "site": "Antonio Vieira Imóveis",
+    "title": "Casa para Aluguel — NOVA PIRAPORA, Pirapora Mg - MG",
+    "price": "R$ 1.400,00",
+    "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/225-casa-aluguel-nova-pirapora-pirapora-mg-mg.html",
+    "address": "NOVA PIRAPORA",
+    "status": "UNCHECKED"
+  },
+  "antonio-160": {
+    "id": "antonio-160",
+    "site": "Antonio Vieira Imóveis",
+    "title": "Ponto Comercial para Aluguel — CENTRO, Pirapora - MG",
+    "price": "R$ 3.200,00",
+    "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/160-ponto-comercial-aluguel-centro-pirapora-mg.html",
+    "address": "CENTRO",
+    "status": "UNCHECKED"
+  },
+  "antonio-115": {
+    "id": "antonio-115",
+    "site": "Antonio Vieira Imóveis",
+    "title": "Apartamento para Aluguel — CENTRO, Pirapora - MG",
+    "price": "R$ 1.700,00",
+    "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/115-apartamento-aluguel-centro-pirapora-mg.html",
+    "address": "CENTRO",
+    "status": "UNCHECKED"
   }
 }
