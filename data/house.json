@@ -78,7 +78,7 @@
     "price": "R$ 7.500,00",
     "url": "https://www.jhsimoveis.com.br/imovel/galpao-com-salas-para-aluguel-nova-pirapora-pirapora-mg/1030",
     "address": "RUA MANOEL JOSE DE SOUZA, 351 E 357 — Nova Pirapora",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-415": {
     "id": "jhs-415",
@@ -279,7 +279,7 @@
     "price": "R$ 5.900",
     "url": "https://eunicebragacorretora.com/imovel/218",
     "address": "Rua Treze de Maio — Bom Jesus",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "eunice-213": {
     "id": "eunice-213",
@@ -333,7 +333,7 @@
     "price": "R$ 13.000,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/226-loja-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-445": {
     "id": "alpha-445",
@@ -396,7 +396,7 @@
     "price": "Consulte o valor",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/516-galpao-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-494": {
     "id": "alpha-494",
@@ -405,7 +405,7 @@
     "price": "R$ 20.000,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/494-loja-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-553": {
     "id": "alpha-553",
@@ -423,7 +423,7 @@
     "price": "Consulte o valor",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/535-ponto-comercial-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-534": {
     "id": "alpha-534",
@@ -432,7 +432,7 @@
     "price": "Consulte o valor",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/534-loja-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-522": {
     "id": "alpha-522",
@@ -495,7 +495,7 @@
     "price": "R$ 9.000,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/565-galpao-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "antonio-233": {
     "id": "antonio-233",
@@ -774,6 +774,6 @@
     "price": "R$ 4.000,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/43-ponto-comercial-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   }
 }
