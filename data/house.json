@@ -6,7 +6,7 @@
     "price": "R$ 2.800,00",
     "url": "https://www.jhsimoveis.com.br/imovel/ponto-comercial-no-centro-excelente-localizacao/2373",
     "address": "Avenida Rodolfo Mallard, 157 — Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-2389": {
     "id": "jhs-2389",
@@ -51,7 +51,7 @@
     "price": "R$ 1.500,00",
     "url": "https://www.jhsimoveis.com.br/imovel/imovel-comercial-para-locacao-na-avenida-pio-xii/2381",
     "address": "Avenida Pio XII, 821 — Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-4": {
     "id": "jhs-4",
@@ -96,7 +96,7 @@
     "price": "R$ 3.000,00",
     "url": "https://www.jhsimoveis.com.br/imovel/predio-comercial-para-aluguel-industrial-pirapora-mg/999",
     "address": "RUA PRESIDENTE COSTA E SILVA, 226 — INDUSTRIAL",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-310": {
     "id": "jhs-310",
@@ -114,7 +114,7 @@
     "price": "R$ 2.800,00",
     "url": "https://www.jhsimoveis.com.br/imovel/ponto-comercial-para-locacao-no-centro-de-pirapora/2293",
     "address": "Rua Rotary, 716 — N SENHORA APARECIDA",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "ss-1370": {
     "id": "ss-1370",
@@ -252,7 +252,7 @@
     "price": "R$ 1.700",
     "url": "https://eunicebragacorretora.com/imovel/215",
     "address": "Rua Januária — Santo Antônio",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "eunice-216": {
     "id": "eunice-216",
@@ -351,7 +351,7 @@
     "price": "R$ 3.500,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/326-ponto-comercial-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-546": {
     "id": "alpha-546",
@@ -486,7 +486,7 @@
     "price": "R$ 3.000,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/560-ponto-comercial-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-565": {
     "id": "alpha-565",
@@ -522,7 +522,7 @@
     "price": "R$ 3.200,00",
     "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/160-ponto-comercial-aluguel-centro-pirapora-mg.html",
     "address": "CENTRO",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "antonio-115": {
     "id": "antonio-115",
@@ -648,7 +648,7 @@
     "price": "R$ 1.800,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/16-ponto-comercial-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-28": {
     "id": "sf-28",
@@ -693,7 +693,7 @@
     "price": "R$ 3.300,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/6-ponto-comercial-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-17": {
     "id": "sf-17",
@@ -738,7 +738,7 @@
     "price": "R$ 3.900,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/23-ponto-comercial-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-42": {
     "id": "sf-42",
@@ -765,7 +765,7 @@
     "price": "R$ 2.500,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/44-ponto-comercial-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-43": {
     "id": "sf-43",
