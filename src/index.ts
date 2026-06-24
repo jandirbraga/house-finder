@@ -1,12 +1,15 @@
 import { checkAllSites } from "./checker.js";
 import { loadHouses, saveHouses, toHouse } from "./store.js";
-import { notify } from "./notifier.js";
+import { notify, notifyDailySummary } from "./notifier.js";
 
 async function run(): Promise<void> {
   const houses = await loadHouses();
   const results = await checkAllSites();
 
   const newListings = results.filter((listing) => !(listing.id in houses));
+
+  const uncheckedCount = Object.values(houses).filter((h) => h.status === "UNCHECKED").length;
+  await notifyDailySummary(uncheckedCount);
 
   if (newListings.length === 0) {
     console.log("No new listings found.");
