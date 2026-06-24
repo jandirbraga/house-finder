@@ -775,5 +775,50 @@
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/43-ponto-comercial-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
     "status": "CHECKED"
+  },
+  "alpha-200": {
+    "id": "alpha-200",
+    "site": "Alpha Imóveis",
+    "title": "Casa São Geraldo — São Geraldo, Pirapora - MG",
+    "price": "R$ 950,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/200-casa-aluguel-sao-geraldo-pirapora-mg.html",
+    "address": "São Geraldo",
+    "status": "UNCHECKED"
+  },
+  "alpha-214": {
+    "id": "alpha-214",
+    "site": "Alpha Imóveis",
+    "title": "Galpão Av. Bonifácio Machado de Miranda — Cicero Passos, Pirapora - MG",
+    "price": "R$ 600,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/214-galpao-aluguel-cicero-passos-pirapora-mg.html",
+    "address": "Cicero Passos",
+    "status": "UNCHECKED"
+  },
+  "alpha-55": {
+    "id": "alpha-55",
+    "site": "Alpha Imóveis",
+    "title": "Galpão Av Jeferssom Gitirana — Nova Pirapora, Pirapora - MG",
+    "price": "R$ 4.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/55-galpao-aluguel-nova-pirapora-pirapora-mg.html",
+    "address": "Nova Pirapora",
+    "status": "UNCHECKED"
+  },
+  "alpha-552": {
+    "id": "alpha-552",
+    "site": "Alpha Imóveis",
+    "title": "Herculano Cintra Mourão — São João Batista, Pirapora - MG",
+    "price": "R$ 6.500,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/552-galpao-aluguel-sao-joao-batista-pirapora-mg.html",
+    "address": "São João Batista",
+    "status": "UNCHECKED"
+  },
+  "alpha-557": {
+    "id": "alpha-557",
+    "site": "Alpha Imóveis",
+    "title": "Herculano Cintra Mourão — São João Batista, Pirapora - MG",
+    "price": "R$ 7.500,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/557-galpao-aluguel-sao-joao-batista-pirapora-mg.html",
+    "address": "São João Batista",
+    "status": "UNCHECKED"
   }
 }
