@@ -595,5 +595,230 @@
     "url": "https://www.jhsimoveis.com.br/imovel/casa-para-aluguel-3-quartos-1-suite-1-vaga-terreo-santo-antonio-pirapora-mg/3417",
     "address": "Alameda Argelce Mota, 130 — Santo Antônio",
     "status": "UNCHECKED"
+  },
+  "sf-15": {
+    "id": "sf-15",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Santo Antônio, Pirapora - MG",
+    "price": "R$ 700,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/15-casa-aluguel-santo-antonio-pirapora-mg.html",
+    "address": "Santo Antônio",
+    "status": "UNCHECKED"
+  },
+  "sf-24": {
+    "id": "sf-24",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Santo Antônio, Pirapora - MG",
+    "price": "R$ 900,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/24-casa-aluguel-santo-antonio-pirapora-mg.html",
+    "address": "Santo Antônio",
+    "status": "UNCHECKED"
+  },
+  "sf-3": {
+    "id": "sf-3",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Santo Antônio, Pirapora - MG",
+    "price": "R$ 1.800,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/3-casa-aluguel-santo-antonio-pirapora-mg.html",
+    "address": "Santo Antônio",
+    "status": "UNCHECKED"
+  },
+  "sf-9": {
+    "id": "sf-9",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Santo Antônio, Pirapora - MG",
+    "price": "R$ 1.200,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/9-casa-aluguel-santo-antonio-pirapora-mg.html",
+    "address": "Santo Antônio",
+    "status": "UNCHECKED"
+  },
+  "sf-5": {
+    "id": "sf-5",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Nova Pirapora, Pirapora - MG",
+    "price": "R$ 3.000,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/5-casa-aluguel-nova-pirapora-pirapora-mg.html",
+    "address": "Nova Pirapora",
+    "status": "UNCHECKED"
+  },
+  "sf-8": {
+    "id": "sf-8",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Industrial, Pirapora - MG",
+    "price": "R$ 2.100,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/8-casa-aluguel-industrial-pirapora-mg.html",
+    "address": "Industrial",
+    "status": "UNCHECKED"
+  },
+  "sf-31": {
+    "id": "sf-31",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Industrial, Pirapora - MG",
+    "price": "R$ 2.000,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/31-casa-aluguel-industrial-pirapora-mg.html",
+    "address": "Industrial",
+    "status": "UNCHECKED"
+  },
+  "sf-30": {
+    "id": "sf-30",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Santo Antônio, Pirapora - MG",
+    "price": "R$ 1.400,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/30-casa-aluguel-santo-antonio-pirapora-mg.html",
+    "address": "Santo Antônio",
+    "status": "UNCHECKED"
+  },
+  "sf-7": {
+    "id": "sf-7",
+    "site": "São Francisco Imobiliária",
+    "title": "Kitnet para Aluguel — Bom Jesus, Pirapora - MG",
+    "price": "R$ 1.200,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/7-kitnet-aluguel-bom-jesus-pirapora-mg.html",
+    "address": "Bom Jesus",
+    "status": "UNCHECKED"
+  },
+  "sf-14": {
+    "id": "sf-14",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Nossa Senhora Aparecida, Pirapora - MG",
+    "price": "R$ 1.400,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/14-casa-aluguel-nossa-senhora-aparecida-pirapora-mg.html",
+    "address": "Nossa Senhora Aparecida",
+    "status": "UNCHECKED"
+  },
+  "sf-16": {
+    "id": "sf-16",
+    "site": "São Francisco Imobiliária",
+    "title": "Ponto Comercial para Aluguel — Centro, Pirapora - MG",
+    "price": "R$ 1.800,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/16-ponto-comercial-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
+  },
+  "sf-28": {
+    "id": "sf-28",
+    "site": "São Francisco Imobiliária",
+    "title": "Sala Comercial para Aluguel — Centro, Pirapora - MG",
+    "price": "R$ 850,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/28-sala-comercial-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
+  },
+  "sf-29": {
+    "id": "sf-29",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — São Geraldo, Pirapora - MG",
+    "price": "R$ 2.500,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/29-casa-aluguel-sao-geraldo-pirapora-mg.html",
+    "address": "São Geraldo",
+    "status": "UNCHECKED"
+  },
+  "sf-26": {
+    "id": "sf-26",
+    "site": "São Francisco Imobiliária",
+    "title": "Ponto Comercial para Aluguel — Centro, Pirapora - MG",
+    "price": "R$ 1.300,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/26-ponto-comercial-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
+  },
+  "sf-39": {
+    "id": "sf-39",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Nossa Senhora Aparecida, Pirapora - MG",
+    "price": "R$ 750,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/39-casa-aluguel-nossa-senhora-aparecida-pirapora-mg.html",
+    "address": "Nossa Senhora Aparecida",
+    "status": "UNCHECKED"
+  },
+  "sf-6": {
+    "id": "sf-6",
+    "site": "São Francisco Imobiliária",
+    "title": "Ponto Comercial para Aluguel — Santos Dumont, Pirapora - MG",
+    "price": "R$ 3.300,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/6-ponto-comercial-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "sf-17": {
+    "id": "sf-17",
+    "site": "São Francisco Imobiliária",
+    "title": "Ponto Comercial para Aluguel — Cicero Passos, Pirapora - MG",
+    "price": "R$ 1.000,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/17-ponto-comercial-aluguel-cicero-passos-pirapora-mg.html",
+    "address": "Cicero Passos",
+    "status": "UNCHECKED"
+  },
+  "sf-36": {
+    "id": "sf-36",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — São João Batista, Pirapora - MG",
+    "price": "R$ 1.400,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/36-casa-aluguel-sao-joao-batista-pirapora-mg.html",
+    "address": "São João Batista",
+    "status": "UNCHECKED"
+  },
+  "sf-32": {
+    "id": "sf-32",
+    "site": "São Francisco Imobiliária",
+    "title": "Ponto Comercial para Aluguel — Centro, Pirapora - MG",
+    "price": "R$ 900,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/32-ponto-comercial-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
+  },
+  "sf-40": {
+    "id": "sf-40",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — São Geraldo, Pirapora - MG",
+    "price": "R$ 550,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/40-casa-aluguel-sao-geraldo-pirapora-mg.html",
+    "address": "São Geraldo",
+    "status": "UNCHECKED"
+  },
+  "sf-23": {
+    "id": "sf-23",
+    "site": "São Francisco Imobiliária",
+    "title": "Ponto Comercial para Aluguel — Centro, Pirapora - MG",
+    "price": "R$ 3.900,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/23-ponto-comercial-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
+  },
+  "sf-42": {
+    "id": "sf-42",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Santo Antônio, Pirapora - MG",
+    "price": "R$ 1.200,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/42-casa-aluguel-santo-antonio-pirapora-mg.html",
+    "address": "Santo Antônio",
+    "status": "UNCHECKED"
+  },
+  "sf-41": {
+    "id": "sf-41",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Bom Jesus, Pirapora - MG",
+    "price": "R$ 1.800,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/41-casa-aluguel-bom-jesus-pirapora-mg.html",
+    "address": "Bom Jesus",
+    "status": "UNCHECKED"
+  },
+  "sf-44": {
+    "id": "sf-44",
+    "site": "São Francisco Imobiliária",
+    "title": "Ponto Comercial para Aluguel — Centro, Pirapora - MG",
+    "price": "R$ 2.500,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/44-ponto-comercial-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
+  },
+  "sf-43": {
+    "id": "sf-43",
+    "site": "São Francisco Imobiliária",
+    "title": "Ponto Comercial para Aluguel — Santos Dumont, Pirapora - MG",
+    "price": "R$ 4.000,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/43-ponto-comercial-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
   }
 }

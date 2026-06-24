@@ -26,7 +26,9 @@ This is a Node.js TypeScript scraper that monitors real estate sites in Pirapora
 
 **Adding a scraper:** create a class in `src/scrapers/`, implement `Scraper`, and register it in `src/scrapers/index.ts`.
 
-**Notification stub:** `src/notifier.ts` is a no-op TODO — implement it to add email, Telegram, Slack, etc.
+**Pagination:** Always verify whether a site paginates results before implementing a scraper. Fetch the listing URL manually and check for next-page links (e.g. `pagesIntervalos`, `controlsPage`, `pag=`, `pg=`). Some sites (e.g. São Francisco Imobiliária) appear to have pagination UI elements in the HTML but return all results on a single page — confirm by counting listings vs. what the site shows. Scrapers that need pagination should loop with a `hasNext` guard (see `antoniovieira.ts` as reference).
+
+**Notifications:** `src/notifier.ts` sends Telegram messages via bot `@CorretorFajutoBot`. Credentials are read from `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` env vars — set via GitHub Actions secrets in production and `.vscode/launch.json` locally (not committed). A daily summary is sent at 15:00 UTC (noon BRT).
 
 **Automation:** GitHub Actions runs the project hourly and commits any changes to `data/house.json`.
 
