@@ -24,7 +24,7 @@
     "price": "R$ 900,00",
     "url": "https://www.jhsimoveis.com.br/imovel/otima-casa-para-locacao-em-bairro-tradicional-santo-antonio/2400",
     "address": "Rua Paraopeba, 844 — Santo Antônio",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-2367": {
     "id": "jhs-2367",
@@ -33,7 +33,7 @@
     "price": "R$ 1.300,00",
     "url": "https://www.jhsimoveis.com.br/imovel/casa-para-aluguel-3-quartos-1-vaga-centro-pirapora-mg/2367",
     "address": "Rua Soeiros, 418 — Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-2379": {
     "id": "jhs-2379",
@@ -60,7 +60,7 @@
     "price": "R$ 1.200,00",
     "url": "https://www.jhsimoveis.com.br/imovel/ponto-comercial-para-aluguel-centro-pirapora-mg/4",
     "address": "RUA CORONEL QUINTINO VARGAS, 156 — Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-1888": {
     "id": "jhs-1888",
@@ -87,7 +87,7 @@
     "price": "R$ 1.100,00",
     "url": "https://www.jhsimoveis.com.br/imovel/ponto-comercial-para-aluguel-industrial-pirapora-mg/415",
     "address": "Rua Thomaz Lopes Martins, 138 — INDUSTRIAL",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-999": {
     "id": "jhs-999",
@@ -218,7 +218,7 @@
     "title": "Kitnet no Centro",
     "price": "R$ 1.100,00",
     "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-centro-pirapora-aluguel-RS1100/125151",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "ss-728": {
     "id": "ss-728",
@@ -226,7 +226,7 @@
     "title": "Casa no Centro",
     "price": "R$ 850,00",
     "url": "https://ssimoveismg.com.br/imovel/casa-no-bairro-centro-pirapora-aluguel-RS850/125138",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "ss-1231": {
     "id": "ss-1231",
@@ -288,7 +288,7 @@
     "price": "R$ 1.200",
     "url": "https://eunicebragacorretora.com/imovel/213",
     "address": "Rua José Pedro da Silva — São Geraldo",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "eunice-210": {
     "id": "eunice-210",
@@ -324,7 +324,7 @@
     "price": "R$ 1.300,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/386-apartamento-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-226": {
     "id": "alpha-226",
@@ -369,7 +369,7 @@
     "price": "R$ 1.000,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/454-casa-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-472": {
     "id": "alpha-472",
@@ -378,7 +378,7 @@
     "price": "R$ 1.200,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/472-casa-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-471": {
     "id": "alpha-471",
@@ -450,7 +450,7 @@
     "price": "R$ 1.200,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/558-casa-aluguel-residencial-porto-bello-pirapora-mg.html",
     "address": "Residencial Porto Bello",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-561": {
     "id": "alpha-561",
@@ -567,7 +567,7 @@
     "price": "R$ 900,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/24-casa-aluguel-santo-antonio-pirapora-mg.html",
     "address": "Santo Antônio",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-3": {
     "id": "sf-3",
@@ -585,7 +585,7 @@
     "price": "R$ 1.200,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/9-casa-aluguel-santo-antonio-pirapora-mg.html",
     "address": "Santo Antônio",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-5": {
     "id": "sf-5",
@@ -630,7 +630,7 @@
     "price": "R$ 1.200,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/7-kitnet-aluguel-bom-jesus-pirapora-mg.html",
     "address": "Bom Jesus",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-14": {
     "id": "sf-14",
@@ -657,7 +657,7 @@
     "price": "R$ 850,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/28-sala-comercial-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-29": {
     "id": "sf-29",
@@ -675,7 +675,7 @@
     "price": "R$ 1.300,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/26-ponto-comercial-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-39": {
     "id": "sf-39",
@@ -684,7 +684,7 @@
     "price": "R$ 750,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/39-casa-aluguel-nossa-senhora-aparecida-pirapora-mg.html",
     "address": "Nossa Senhora Aparecida",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-6": {
     "id": "sf-6",
@@ -702,7 +702,7 @@
     "price": "R$ 1.000,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/17-ponto-comercial-aluguel-cicero-passos-pirapora-mg.html",
     "address": "Cicero Passos",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-36": {
     "id": "sf-36",
@@ -720,7 +720,7 @@
     "price": "R$ 900,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/32-ponto-comercial-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-40": {
     "id": "sf-40",
@@ -747,7 +747,7 @@
     "price": "R$ 1.200,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/42-casa-aluguel-santo-antonio-pirapora-mg.html",
     "address": "Santo Antônio",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-41": {
     "id": "sf-41",
