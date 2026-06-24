@@ -326,24 +326,6 @@
     "address": "Santos Dumont",
     "status": "UNCHECKED"
   },
-  "alpha-200": {
-    "id": "alpha-200",
-    "site": "Alpha Imóveis",
-    "title": "Casa S�o Geraldo — S�o Geraldo, Pirapora - MG",
-    "price": "R$ 950,00",
-    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/200-casa-aluguel-sao-geraldo-pirapora-mg.html",
-    "address": "S�o Geraldo",
-    "status": "UNCHECKED"
-  },
-  "alpha-214": {
-    "id": "alpha-214",
-    "site": "Alpha Imóveis",
-    "title": "Galp�o Av. Bonif�cio Machado de Miranda — Cicero Passos, Pirapora - MG",
-    "price": "R$ 600,00",
-    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/214-galpao-aluguel-cicero-passos-pirapora-mg.html",
-    "address": "Cicero Passos",
-    "status": "UNCHECKED"
-  },
   "alpha-226": {
     "id": "alpha-226",
     "site": "Alpha Imóveis",
@@ -351,15 +333,6 @@
     "price": "R$ 13.000,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/226-loja-aluguel-santos-dumont-pirapora-mg.html",
     "address": "Santos Dumont",
-    "status": "UNCHECKED"
-  },
-  "alpha-55": {
-    "id": "alpha-55",
-    "site": "Alpha Imóveis",
-    "title": "Galp�o Av Jeferssom Gitirana — Nova Pirapora, Pirapora - MG",
-    "price": "R$ 4.000,00",
-    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/55-galpao-aluguel-nova-pirapora-pirapora-mg.html",
-    "address": "Nova Pirapora",
     "status": "UNCHECKED"
   },
   "alpha-445": {
@@ -488,15 +461,6 @@
     "address": "Jardim Primavera",
     "status": "UNCHECKED"
   },
-  "alpha-552": {
-    "id": "alpha-552",
-    "site": "Alpha Imóveis",
-    "title": "Herculano Cintra Mour�o — S�o Jo�o Batista, Pirapora - MG",
-    "price": "R$ 6.500,00",
-    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/552-galpao-aluguel-sao-joao-batista-pirapora-mg.html",
-    "address": "S�o Jo�o Batista",
-    "status": "UNCHECKED"
-  },
   "alpha-555": {
     "id": "alpha-555",
     "site": "Alpha Imóveis",
@@ -504,15 +468,6 @@
     "price": "R$ 6.600,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/555-galpao-aluguel-cidade-jardim-pirapora-mg.html",
     "address": "Cidade Jardim",
-    "status": "UNCHECKED"
-  },
-  "alpha-557": {
-    "id": "alpha-557",
-    "site": "Alpha Imóveis",
-    "title": "Herculano Cintra Mour�o — S�o Jo�o Batista, Pirapora - MG",
-    "price": "R$ 7.500,00",
-    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/557-galpao-aluguel-sao-joao-batista-pirapora-mg.html",
-    "address": "S�o Jo�o Batista",
     "status": "UNCHECKED"
   },
   "alpha-559": {
