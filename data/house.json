@@ -820,5 +820,14 @@
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/557-galpao-aluguel-sao-joao-batista-pirapora-mg.html",
     "address": "São João Batista",
     "status": "UNCHECKED"
+  },
+  "alpha-210": {
+    "id": "alpha-210",
+    "site": "Alpha Imóveis",
+    "title": "Casa Santo Antônio — Santo Antonio, Pirapora - MG",
+    "price": "R$ 2.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/210-casa-aluguel-santo-antonio-pirapora-mg.html",
+    "address": "Santo Antonio",
+    "status": "UNCHECKED"
   }
 }
