@@ -136,7 +136,29 @@
             display: flex;
             flex-direction: column;
             border-left: 4px solid #667eea;
+            position: relative;
         }
+
+        .property-card.favorite {
+            border-left-color: #f59e0b;
+        }
+
+        .star-btn {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: none;
+            border: none;
+            font-size: 1.4em;
+            cursor: pointer;
+            line-height: 1;
+            padding: 2px;
+            opacity: 0.35;
+            transition: opacity 0.2s, transform 0.15s;
+        }
+
+        .star-btn:hover { opacity: 0.7; transform: scale(1.2); }
+        .star-btn.active { opacity: 1; }
 
 
         .property-card:hover {
@@ -443,6 +465,10 @@
                     <input type="checkbox" id="filterUnchecked" checked>
                     <span>🆕 Mostrar apenas novidades (UNCHECKED)</span>
                 </label>
+                <label>
+                    <input type="checkbox" id="filterFavorites">
+                    <span>⭐ Mostrar apenas favoritos</span>
+                </label>
             </div>
             <div class="filter-group" id="filters"></div>
         </div>
@@ -471,7 +497,9 @@
         let allHouses = {};
         let currentFilter = null;
         let showOnlyUnchecked = true;
+        let showOnlyFavorites = false;
         let pendingChecked = new Set();
+        let pendingFavorites = new Set();
 
         async function loadData() {
             try {
@@ -512,12 +540,14 @@
         function filterHouses() {
             let filtered = Object.values(allHouses);
 
-            // Filtro de status
             if (showOnlyUnchecked) {
                 filtered = filtered.filter(h => h.status === 'UNCHECKED');
             }
 
-            // Filtro de site
+            if (showOnlyFavorites) {
+                filtered = filtered.filter(h => h.status === 'FAVORITE' || pendingFavorites.has(h.id));
+            }
+
             if (currentFilter) {
                 filtered = filtered.filter(h => h.site === currentFilter);
             }
@@ -544,12 +574,13 @@
             }
 
             container.innerHTML = filtered.map(house => {
-                const sitePrefix = house.id.split('-')[0];
                 const siteClass = getSiteClass(house.site);
                 const isNew = house.status === 'UNCHECKED';
+                const isFavorite = house.status === 'FAVORITE' || pendingFavorites.has(house.id);
 
                 return `
-                    <div class="property-card ${isNew ? 'unchecked' : ''}">
+                    <div class="property-card ${isNew ? 'unchecked' : ''} ${isFavorite ? 'favorite' : ''}">
+                        <button class="star-btn ${isFavorite ? 'active' : ''}" onclick="toggleFavorite('${house.id}', this)" title="Favoritar">⭐</button>
                         <div class="property-header">
                             ${isNew ? '<span class="property-status status-new">🆕 NOVIDADE</span>' : ''}
                             <span class="property-site ${siteClass}">${house.site}</span>
@@ -618,6 +649,12 @@
             render();
         });
 
+        document.getElementById('filterFavorites').addEventListener('change', (e) => {
+            showOnlyFavorites = e.target.checked;
+            renderFilters();
+            render();
+        });
+
         const PAT_STORAGE_KEY = 'hf_pat';
 
         async function getPat() {
@@ -628,6 +665,16 @@
                 localStorage.setItem(PAT_STORAGE_KEY, pat.trim());
             }
             return pat.trim();
+        }
+
+        function toggleFavorite(id, btn) {
+            if (pendingFavorites.has(id)) {
+                pendingFavorites.delete(id);
+            } else {
+                pendingFavorites.add(id);
+            }
+            updateSaveBar();
+            render();
         }
 
         function togglePending(id, btn) {
@@ -646,9 +693,11 @@
         function updateSaveBar() {
             const bar = document.getElementById('save-bar');
             const msg = document.getElementById('save-bar-msg');
-            const count = pendingChecked.size;
-            if (count > 0) {
-                msg.textContent = `${count} imóvel${count > 1 ? 'is' : ''} marcado${count > 1 ? 's' : ''} como visto${count > 1 ? 's' : ''}`;
+            const parts = [];
+            if (pendingChecked.size > 0) parts.push(`${pendingChecked.size} marcado${pendingChecked.size > 1 ? 's' : ''} como visto`);
+            if (pendingFavorites.size > 0) parts.push(`${pendingFavorites.size} favorito${pendingFavorites.size > 1 ? 's' : ''}`);
+            if (parts.length > 0) {
+                msg.textContent = parts.join(' · ') + ' pendente' + (parts.length > 1 || (pendingChecked.size + pendingFavorites.size) > 1 ? 's' : '');
                 bar.classList.add('visible');
             } else {
                 bar.classList.remove('visible');
@@ -657,6 +706,7 @@
 
         function discardChanges() {
             pendingChecked.clear();
+            pendingFavorites.clear();
             updateSaveBar();
             render();
         }
@@ -685,14 +735,20 @@
                 const meta = await metaRes.json();
                 const freshData = JSON.parse(decodeURIComponent(escape(atob(meta.content.replace(/\n/g, '')))));
 
-                const ids = [...pendingChecked];
-                ids.forEach(id => {
+                [...pendingChecked].forEach(id => {
                     if (freshData[id]) freshData[id].status = 'CHECKED';
                     if (allHouses[id]) allHouses[id].status = 'CHECKED';
                 });
+                [...pendingFavorites].forEach(id => {
+                    if (freshData[id]) freshData[id].status = 'FAVORITE';
+                    if (allHouses[id]) allHouses[id].status = 'FAVORITE';
+                });
 
+                const totalChanged = pendingChecked.size + pendingFavorites.size;
                 const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(freshData, null, 2))));
-                const label = ids.length === 1 ? `Mark ${ids[0]} as CHECKED` : `Mark ${ids.length} listings as CHECKED`;
+                const label = totalChanged === 1
+                    ? (pendingChecked.size ? `Mark ${[...pendingChecked][0]} as CHECKED` : `Mark ${[...pendingFavorites][0]} as FAVORITE`)
+                    : `Update ${totalChanged} listings`;
 
                 const putRes = await fetch('https://api.github.com/repos/jandirbraga/house-finder/contents/data/house.json', {
                     method: 'PUT',
@@ -702,6 +758,7 @@
 
                 if (putRes.ok) {
                     pendingChecked.clear();
+                    pendingFavorites.clear();
                     updateSaveBar();
                     await loadData();
                 } else {
