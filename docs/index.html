@@ -253,6 +253,23 @@
             background: #5568d3;
         }
 
+        .btn-check {
+            background: #f0fdf4;
+            color: #15803d;
+            border: 2px solid #86efac;
+            margin-top: 8px;
+        }
+
+        .btn-check:hover {
+            background: #dcfce7;
+        }
+
+        .btn-check.loading {
+            opacity: 0.6;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
         .empty-state {
             text-align: center;
             padding: 40px;
@@ -442,6 +459,7 @@
                         <div class="property-body"></div>
                         <div class="property-footer">
                             <a href="${house.url}" target="_blank" class="btn btn-primary">Ver Detalhes ↗</a>
+                            ${isNew ? `<button class="btn btn-check" onclick="markAsChecked('${house.id}', this)">✓ Marcar como Visto</button>` : ''}
                         </div>
                     </div>
                 `;
@@ -499,6 +517,74 @@
             showOnlyUnchecked = e.target.checked;
             render();
         });
+
+        const PAT_STORAGE_KEY = 'hf_pat';
+
+        async function getPat() {
+            let pat = localStorage.getItem(PAT_STORAGE_KEY);
+            if (!pat) {
+                pat = prompt('Cole seu GitHub Personal Access Token para autenticar:');
+                if (!pat) return null;
+                localStorage.setItem(PAT_STORAGE_KEY, pat.trim());
+            }
+            return pat.trim();
+        }
+
+        async function markAsChecked(id, btn) {
+            const pat = await getPat();
+            if (!pat) return;
+
+            btn.classList.add('loading');
+            btn.textContent = 'Salvando...';
+
+            try {
+                const metaRes = await fetch('https://api.github.com/repos/jandirbraga/house-finder/contents/data/house.json', {
+                    headers: { Authorization: `token ${pat}` }
+                });
+
+                if (!metaRes.ok) {
+                    alert('Token inválido ou sem permissão. Cole o token novamente.');
+                    localStorage.removeItem(PAT_STORAGE_KEY);
+                    btn.classList.remove('loading');
+                    btn.textContent = '✓ Marcar como Visto';
+                    return;
+                }
+
+                const meta = await metaRes.json();
+                const sha = meta.sha;
+
+                allHouses[id].status = 'CHECKED';
+                const updated = JSON.stringify(allHouses, null, 2);
+                const encoded = btoa(unescape(encodeURIComponent(updated)));
+
+                const putRes = await fetch('https://api.github.com/repos/jandirbraga/house-finder/contents/data/house.json', {
+                    method: 'PUT',
+                    headers: {
+                        Authorization: `token ${pat}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        message: `Mark ${id} as CHECKED`,
+                        content: encoded,
+                        sha: sha
+                    })
+                });
+
+                if (putRes.ok) {
+                    render();
+                    updateStats();
+                } else {
+                    alert('Erro ao salvar. Tente novamente.');
+                    allHouses[id].status = 'UNCHECKED';
+                    btn.classList.remove('loading');
+                    btn.textContent = '✓ Marcar como Visto';
+                }
+            } catch (e) {
+                alert('Erro de conexão.');
+                btn.classList.remove('loading');
+                btn.textContent = '✓ Marcar como Visto';
+            }
+        }
 
         // Carregar dados ao iniciar
         loadData();
