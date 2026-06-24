@@ -8,24 +8,6 @@
     "address": "Avenida Rodolfo Mallard, 157 — Centro",
     "status": "UNCHECKED"
   },
-  "jhs-3422": {
-    "id": "jhs-3422",
-    "site": "JHS Imóveis",
-    "title": "Casa — Santos Dumont, Pirapora/MG",
-    "price": "R$ 2.000,00",
-    "url": "https://www.jhsimoveis.com.br/imovel/casa-para-aluguel-com-piscina-area-gourmet-e-amplo-espaco-externo-no-bairro-santos-dumont/3422",
-    "address": "Rua José Jorge Hatem, 753 — Santos Dumont",
-    "status": "UNCHECKED"
-  },
-  "jhs-3417": {
-    "id": "jhs-3417",
-    "site": "JHS Imóveis",
-    "title": "Casa — Santo Antônio, Pirapora/MG",
-    "price": "R$ 1.400,00",
-    "url": "https://www.jhsimoveis.com.br/imovel/casa-para-aluguel-3-quartos-1-suite-1-vaga-terreo-santo-antonio-pirapora-mg/3417",
-    "address": "Alameda Argelce Mota, 130 — Santo Antônio",
-    "status": "UNCHECKED"
-  },
   "jhs-2389": {
     "id": "jhs-2389",
     "site": "JHS Imóveis",
@@ -594,6 +576,24 @@
     "price": "R$ 1.700,00",
     "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/115-apartamento-aluguel-centro-pirapora-mg.html",
     "address": "CENTRO",
+    "status": "UNCHECKED"
+  },
+  "jhs-3422": {
+    "id": "jhs-3422",
+    "site": "JHS Imóveis",
+    "title": "Casa — Santos Dumont, Pirapora/MG",
+    "price": "R$ 2.000,00",
+    "url": "https://www.jhsimoveis.com.br/imovel/casa-para-aluguel-com-piscina-area-gourmet-e-amplo-espaco-externo-no-bairro-santos-dumont/3422",
+    "address": "Rua José Jorge Hatem, 753 — Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "jhs-3417": {
+    "id": "jhs-3417",
+    "site": "JHS Imóveis",
+    "title": "Casa — Santo Antônio, Pirapora/MG",
+    "price": "R$ 1.400,00",
+    "url": "https://www.jhsimoveis.com.br/imovel/casa-para-aluguel-3-quartos-1-suite-1-vaga-terreo-santo-antonio-pirapora-mg/3417",
+    "address": "Alameda Argelce Mota, 130 — Santo Antônio",
     "status": "UNCHECKED"
   }
 }
