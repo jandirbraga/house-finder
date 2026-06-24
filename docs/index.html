@@ -509,7 +509,9 @@
                 });
                 const contents = await contentsRes.json();
                 const lastCommitDate = contents.last_modified || null;
-                allHouses = JSON.parse(decodeURIComponent(escape(atob(contents.content.replace(/\n/g, '')))));
+                const binary = atob(contents.content.replace(/\n/g, ''));
+                const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+                allHouses = JSON.parse(new TextDecoder('utf-8').decode(bytes));
 
                 // Data do último commit via header Last-Modified da resposta
                 const lastMod = contentsRes.headers.get('Last-Modified');
@@ -745,7 +747,9 @@
                 }
 
                 const meta = await metaRes.json();
-                const freshData = JSON.parse(decodeURIComponent(escape(atob(meta.content.replace(/\n/g, '')))));
+                const freshBinary = atob(meta.content.replace(/\n/g, ''));
+                const freshBytes = Uint8Array.from(freshBinary, c => c.charCodeAt(0));
+                const freshData = JSON.parse(new TextDecoder('utf-8').decode(freshBytes));
 
                 [...pendingChecked].forEach(id => {
                     if (freshData[id]) freshData[id].status = 'CHECKED';
