@@ -15,7 +15,7 @@ function pageUrl(page: number): string {
 }
 
 function parsePage(html: string): { listings: Listing[]; hasNext: boolean } {
-  const $ = load(html, { decodeEntities: true });
+  const $ = load(html);
   const listings: Listing[] = [];
 
   $("dl.gridTypeList").each((_, el) => {

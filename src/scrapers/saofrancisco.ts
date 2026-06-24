@@ -11,7 +11,7 @@ const HEADERS = {
 };
 
 function parsePage(html: string): Listing[] {
-  const $ = load(html, { decodeEntities: true });
+  const $ = load(html);
   const listings: Listing[] = [];
 
   $("dl.gridTypeList").each((_, el) => {
