@@ -503,31 +503,17 @@
 
         async function loadData() {
             try {
-                // Usa a GitHub API contents para evitar cache CDN do raw.githubusercontent.com
-                const contentsRes = await fetch('https://api.github.com/repos/jandirbraga/house-finder/contents/data/house.json', {
-                    headers: { 'Cache-Control': 'no-cache' }
-                });
-                const contents = await contentsRes.json();
-                const lastCommitDate = contents.last_modified || null;
-                const binary = atob(contents.content.replace(/\n/g, ''));
-                const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
-                allHouses = JSON.parse(new TextDecoder('utf-8').decode(bytes));
-
-                // Data do último commit via header Last-Modified da resposta
-                const lastMod = contentsRes.headers.get('Last-Modified');
-
+                const [dataRes, metaRes] = await Promise.all([
+                    fetch(`https://raw.githubusercontent.com/jandirbraga/house-finder/main/data/house.json?t=${Date.now()}`),
+                    fetch('https://api.github.com/repos/jandirbraga/house-finder/commits?path=data/house.json&per_page=1')
+                ]);
                 const isFirstLoad = !document.getElementById('filters').children.length;
+                allHouses = await dataRes.json();
+                const commits = await metaRes.json();
+                const lastCommitDate = commits[0]?.commit?.committer?.date;
                 if (isFirstLoad) renderFilters();
                 render();
-
-                // Busca data do último commit separadamente (não bloqueia o render)
-                fetch('https://api.github.com/repos/jandirbraga/house-finder/commits?path=data/house.json&per_page=1', {
-                    headers: { 'Cache-Control': 'no-cache' }
-                }).then(r => r.json()).then(commits => {
-                    updateStats(commits[0]?.commit?.committer?.date);
-                });
-
-                updateStats(lastMod ? new Date(lastMod).toISOString() : null);
+                updateStats(lastCommitDate);
             } catch (error) {
                 console.error('Erro ao carregar dados:', error);
                 document.getElementById('properties').innerHTML = '<div class="empty-state"><p>❌ Erro ao carregar dados. Verifique sua conexão.</p></div>';
