@@ -856,5 +856,23 @@
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/570-casa-aluguel-santo-antonio-pirapora-mg.html",
     "address": "Santo Antonio",
     "status": "UNCHECKED"
+  },
+  "alpha-569": {
+    "id": "alpha-569",
+    "site": "Alpha Imóveis",
+    "title": "Major Americo — Industrial, Pirapora - MG",
+    "price": "R$ 1.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/569-casa-aluguel-industrial-pirapora-mg.html",
+    "address": "Industrial",
+    "status": "UNCHECKED"
+  },
+  "alpha-571": {
+    "id": "alpha-571",
+    "site": "Alpha Imóveis",
+    "title": "Saint Clair Valadares — Cinquentenário, Pirapora - MG",
+    "price": "R$ 1.400,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/571-casa-aluguel-cinquentenario-pirapora-mg.html",
+    "address": "Cinquentenário",
+    "status": "UNCHECKED"
   }
 }
