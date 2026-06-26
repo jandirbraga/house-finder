@@ -874,5 +874,14 @@
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/571-casa-aluguel-cinquentenario-pirapora-mg.html",
     "address": "Cinquentenário",
     "status": "UNCHECKED"
+  },
+  "alpha-343": {
+    "id": "alpha-343",
+    "site": "Alpha Imóveis",
+    "title": "Casa Industrial — Industrial, Pirapora - MG",
+    "price": "R$ 1.400,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/343-casa-aluguel-industrial-pirapora-mg.html",
+    "address": "Industrial",
+    "status": "UNCHECKED"
   }
 }
