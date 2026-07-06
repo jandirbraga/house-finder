@@ -892,5 +892,14 @@
     "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/172-casa-aluguel-industrial-pirapora-mg.html",
     "address": "INDUSTRIAL",
     "status": "UNCHECKED"
+  },
+  "sf-45": {
+    "id": "sf-45",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Centro, Pirapora - MG",
+    "price": "R$ 1.100,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/45-casa-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
   }
 }
