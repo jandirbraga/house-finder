@@ -901,5 +901,23 @@
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/45-casa-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
     "status": "UNCHECKED"
+  },
+  "alpha-572": {
+    "id": "alpha-572",
+    "site": "Alpha Imóveis",
+    "title": "Bonifacio Machado — Cicero Passos, Pirapora - MG",
+    "price": "R$ 1.400,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/572-loja-aluguel-cicero-passos-pirapora-mg.html",
+    "address": "Cicero Passos",
+    "status": "UNCHECKED"
+  },
+  "alpha-573": {
+    "id": "alpha-573",
+    "site": "Alpha Imóveis",
+    "title": "Francisco de Assis Rocha — Cinquentenário, Pirapora - MG",
+    "price": "R$ 2.400,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/573-casa-aluguel-cinquentenario-pirapora-mg.html",
+    "address": "Cinquentenário",
+    "status": "UNCHECKED"
   }
 }
