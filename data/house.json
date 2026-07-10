@@ -928,5 +928,13 @@
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/574-casa-aluguel-nova-pirapora-pirapora-mg.html",
     "address": "Nova Pirapora",
     "status": "UNCHECKED"
+  },
+  "ss-1332": {
+    "id": "ss-1332",
+    "site": "SS Imóveis",
+    "title": "Casa no São João",
+    "price": "R$ 1.000,00",
+    "url": "https://ssimoveismg.com.br/imovel/casa-no-bairro-sao-joao-pirapora-venda-RS320000/165933",
+    "status": "UNCHECKED"
   }
 }
