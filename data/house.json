@@ -261,7 +261,7 @@
     "price": "R$ 1.400",
     "url": "https://eunicebragacorretora.com/imovel/216",
     "address": "Rua Silva Jardim — Bom Jesus",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "eunice-217": {
     "id": "eunice-217",
@@ -360,7 +360,7 @@
     "price": "R$ 1.400,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/546-casa-aluguel-industrial-pirapora-mg.html",
     "address": "Industrial",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-454": {
     "id": "alpha-454",
@@ -513,7 +513,7 @@
     "price": "R$ 1.400,00",
     "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/225-casa-aluguel-nova-pirapora-pirapora-mg-mg.html",
     "address": "NOVA PIRAPORA",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "antonio-160": {
     "id": "antonio-160",
@@ -621,7 +621,7 @@
     "price": "R$ 1.400,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/30-casa-aluguel-santo-antonio-pirapora-mg.html",
     "address": "Santo Antônio",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-7": {
     "id": "sf-7",
@@ -639,7 +639,7 @@
     "price": "R$ 1.400,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/14-casa-aluguel-nossa-senhora-aparecida-pirapora-mg.html",
     "address": "Nossa Senhora Aparecida",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-16": {
     "id": "sf-16",
@@ -711,7 +711,7 @@
     "price": "R$ 1.400,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/36-casa-aluguel-sao-joao-batista-pirapora-mg.html",
     "address": "São João Batista",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-32": {
     "id": "sf-32",
@@ -873,7 +873,7 @@
     "price": "R$ 1.400,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/571-casa-aluguel-cinquentenario-pirapora-mg.html",
     "address": "Cinquentenário",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-343": {
     "id": "alpha-343",
@@ -900,7 +900,7 @@
     "price": "R$ 1.100,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/45-casa-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-572": {
     "id": "alpha-572",
@@ -927,7 +927,7 @@
     "price": "R$ 1.000,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/574-casa-aluguel-nova-pirapora-pirapora-mg.html",
     "address": "Nova Pirapora",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "ss-1332": {
     "id": "ss-1332",
@@ -935,6 +935,6 @@
     "title": "Casa no São João",
     "price": "R$ 1.000,00",
     "url": "https://ssimoveismg.com.br/imovel/casa-no-bairro-sao-joao-pirapora-venda-RS320000/165933",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   }
 }
