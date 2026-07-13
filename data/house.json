@@ -42,7 +42,7 @@
     "price": "R$ 2.200,00",
     "url": "https://www.jhsimoveis.com.br/imovel/casa-para-aluguel-ampla-e-confortavel-no-bairro-santo-antonio/2379",
     "address": "Rua Ministro Jorge Vargas, 77 — Santo Antônio",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-2381": {
     "id": "jhs-2381",
@@ -540,7 +540,7 @@
     "price": "R$ 2.000,00",
     "url": "https://www.jhsimoveis.com.br/imovel/casa-para-aluguel-com-piscina-area-gourmet-e-amplo-espaco-externo-no-bairro-santos-dumont/3422",
     "address": "Rua José Jorge Hatem, 753 — Santos Dumont",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-3417": {
     "id": "jhs-3417",
@@ -549,7 +549,7 @@
     "price": "R$ 1.400,00",
     "url": "https://www.jhsimoveis.com.br/imovel/casa-para-aluguel-3-quartos-1-suite-1-vaga-terreo-santo-antonio-pirapora-mg/3417",
     "address": "Alameda Argelce Mota, 130 — Santo Antônio",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-15": {
     "id": "sf-15",
