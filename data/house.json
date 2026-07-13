@@ -576,7 +576,7 @@
     "price": "R$ 1.800,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/3-casa-aluguel-santo-antonio-pirapora-mg.html",
     "address": "Santo Antônio",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-9": {
     "id": "sf-9",
@@ -603,7 +603,7 @@
     "price": "R$ 2.100,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/8-casa-aluguel-industrial-pirapora-mg.html",
     "address": "Industrial",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-31": {
     "id": "sf-31",
@@ -612,7 +612,7 @@
     "price": "R$ 2.000,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/31-casa-aluguel-industrial-pirapora-mg.html",
     "address": "Industrial",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-30": {
     "id": "sf-30",
@@ -666,7 +666,7 @@
     "price": "R$ 2.500,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/29-casa-aluguel-sao-geraldo-pirapora-mg.html",
     "address": "São Geraldo",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-26": {
     "id": "sf-26",
@@ -756,7 +756,7 @@
     "price": "R$ 1.800,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/41-casa-aluguel-bom-jesus-pirapora-mg.html",
     "address": "Bom Jesus",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-44": {
     "id": "sf-44",
