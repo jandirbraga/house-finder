@@ -15,7 +15,7 @@
     "price": "R$ 4.000,00",
     "url": "https://www.jhsimoveis.com.br/imovel/imovel-para-locacao-residencial-ou-comercial/2389",
     "address": "Rua Coronel Quintino Vargas, 173 — Centro",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "jhs-2400": {
     "id": "jhs-2400",
@@ -594,7 +594,7 @@
     "price": "R$ 3.000,00",
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/5-casa-aluguel-nova-pirapora-pirapora-mg.html",
     "address": "Nova Pirapora",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "sf-8": {
     "id": "sf-8",
@@ -837,7 +837,7 @@
     "price": "R$ 4.500,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/567-loja-aluguel-santo-antonio-pirapora-mg.html",
     "address": "Santo Antonio",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-568": {
     "id": "alpha-568",
@@ -909,7 +909,7 @@
     "price": "R$ 1.400,00",
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/572-loja-aluguel-cicero-passos-pirapora-mg.html",
     "address": "Cicero Passos",
-    "status": "UNCHECKED"
+    "status": "CHECKED"
   },
   "alpha-573": {
     "id": "alpha-573",
