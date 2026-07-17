@@ -936,5 +936,14 @@
     "price": "R$ 1.000,00",
     "url": "https://ssimoveismg.com.br/imovel/casa-no-bairro-sao-joao-pirapora-venda-RS320000/165933",
     "status": "CHECKED"
+  },
+  "alpha-575": {
+    "id": "alpha-575",
+    "site": "Alpha Imóveis",
+    "title": "Nelson Trindade Cotta — Bom Jesus, Pirapora - MG",
+    "price": "R$ 1.600,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/575-casa-aluguel-bom-jesus-pirapora-mg.html",
+    "address": "Bom Jesus",
+    "status": "UNCHECKED"
   }
 }
