@@ -945,5 +945,14 @@
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/575-casa-aluguel-bom-jesus-pirapora-mg.html",
     "address": "Bom Jesus",
     "status": "UNCHECKED"
+  },
+  "sf-46": {
+    "id": "sf-46",
+    "site": "São Francisco Imobiliária",
+    "title": "Casa para Aluguel — Cicero Passos, Pirapora - MG",
+    "price": "R$ 2.000,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/46-casa-aluguel-cicero-passos-pirapora-mg.html",
+    "address": "Cicero Passos",
+    "status": "UNCHECKED"
   }
 }
