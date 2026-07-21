@@ -954,5 +954,13 @@
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/46-casa-aluguel-cicero-passos-pirapora-mg.html",
     "address": "Cicero Passos",
     "status": "UNCHECKED"
+  },
+  "ss-822": {
+    "id": "ss-822",
+    "site": "SS Imóveis",
+    "title": "Apartamento no industrial",
+    "price": "R$ 1.300,00",
+    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-industrial-pirapora-aluguel-RS1300/125195",
+    "status": "UNCHECKED"
   }
 }
