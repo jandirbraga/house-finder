@@ -962,5 +962,23 @@
     "price": "R$ 1.300,00",
     "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-industrial-pirapora-aluguel-RS1300/125195",
     "status": "UNCHECKED"
+  },
+  "alpha-425": {
+    "id": "alpha-425",
+    "site": "Alpha Imóveis",
+    "title": "Raimundo Nascimento — Santos Dumont, Pirapora - MG",
+    "price": "R$ 2.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/425-casa-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "alpha-576": {
+    "id": "alpha-576",
+    "site": "Alpha Imóveis",
+    "title": "Pio XII — Santos Dumont, Pirapora - MG",
+    "price": "R$ 3.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/576-casa-aluguel-santos-dumont-pirapora-mg.html",
+    "address": "Santos Dumont",
+    "status": "UNCHECKED"
   }
 }
