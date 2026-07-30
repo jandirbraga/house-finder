@@ -997,5 +997,13 @@
     "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/237-casa-aluguel-nova-pirapora-pirapora-mg.html",
     "address": "NOVA PIRAPORA",
     "status": "UNCHECKED"
+  },
+  "ss-1501": {
+    "id": "ss-1501",
+    "site": "SS Imóveis",
+    "title": "Apartamento no Centro",
+    "price": "R$ 1.500,00",
+    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-centro-pirapora-aluguel-RS1500/201669",
+    "status": "UNCHECKED"
   }
 }
