@@ -1005,5 +1005,22 @@
     "price": "R$ 1.500,00",
     "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-centro-pirapora-aluguel-RS1500/201669",
     "status": "UNCHECKED"
+  },
+  "ss-681": {
+    "id": "ss-681",
+    "site": "SS Imóveis",
+    "title": "Casa no Santo Antônio",
+    "price": "R$ 3.000,00",
+    "url": "https://ssimoveismg.com.br/imovel/casa-no-bairro-santo-antonio-pirapora-aluguel-RS3000/125122",
+    "status": "UNCHECKED"
+  },
+  "alpha-100": {
+    "id": "alpha-100",
+    "site": "Alpha Imóveis",
+    "title": "Casa Industrial — Industrial, Pirapora - MG",
+    "price": "R$ 1.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/100-casa-aluguel-industrial-pirapora-mg.html",
+    "address": "Industrial",
+    "status": "UNCHECKED"
   }
 }
