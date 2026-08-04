@@ -1022,5 +1022,14 @@
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/100-casa-aluguel-industrial-pirapora-mg.html",
     "address": "Industrial",
     "status": "UNCHECKED"
+  },
+  "sf-47": {
+    "id": "sf-47",
+    "site": "São Francisco Imobiliária",
+    "title": "Ponto Comercial para Aluguel — Centro, Pirapora - MG",
+    "price": "R$ 2.000,00",
+    "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/47-ponto-comercial-aluguel-centro-pirapora-mg.html",
+    "address": "Centro",
+    "status": "UNCHECKED"
   }
 }
