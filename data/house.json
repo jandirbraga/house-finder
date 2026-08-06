@@ -1031,5 +1031,13 @@
     "url": "https://www.saofranciscoimobiliaria.com.br/detalhes-imovel/47-ponto-comercial-aluguel-centro-pirapora-mg.html",
     "address": "Centro",
     "status": "UNCHECKED"
+  },
+  "ss-1504": {
+    "id": "ss-1504",
+    "site": "SS Imóveis",
+    "title": "Casa no Santo Antônio",
+    "price": "R$ 1.200,00",
+    "url": "https://ssimoveismg.com.br/imovel/casa-no-bairro-santo-antonio-pirapora-aluguel-RS1200/202012",
+    "status": "UNCHECKED"
   }
 }
