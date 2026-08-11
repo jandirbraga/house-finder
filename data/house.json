@@ -1039,5 +1039,22 @@
     "price": "R$ 1.200,00",
     "url": "https://ssimoveismg.com.br/imovel/casa-no-bairro-santo-antonio-pirapora-aluguel-RS1200/202012",
     "status": "UNCHECKED"
+  },
+  "jhs-468": {
+    "id": "jhs-468",
+    "site": "JHS Imóveis",
+    "title": "Casa — Santos Dumont, Pirapora/MG",
+    "price": "R$ 750,00",
+    "url": "https://www.jhsimoveis.com.br/imovel/casa-para-aluguel-2-quartos-1-vaga-santos-dumont-pirapora-mg/468",
+    "address": "RUA CANDIDO GONÇALVES DE OLIVEIRA, 09 — Santos Dumont",
+    "status": "UNCHECKED"
+  },
+  "ss-1258": {
+    "id": "ss-1258",
+    "site": "SS Imóveis",
+    "title": "Apartamento no Bom Jesus",
+    "price": "R$ 2.500,00",
+    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-bom-jesus-pirapora-aluguel-RS2500/147894",
+    "status": "UNCHECKED"
   }
 }
