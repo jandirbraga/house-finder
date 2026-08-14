@@ -1083,5 +1083,13 @@
     "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/239-casa-aluguel-santo-antonio-pirapora-mg.html",
     "address": "Santo Antônio",
     "status": "UNCHECKED"
+  },
+  "ss-1506": {
+    "id": "ss-1506",
+    "site": "SS Imóveis",
+    "title": "Apartamento no Centro",
+    "price": "R$ 1.200,00",
+    "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-centro-pirapora-aluguel-RS1200/202532",
+    "status": "UNCHECKED"
   }
 }
