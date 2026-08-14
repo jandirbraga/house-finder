@@ -1091,5 +1091,14 @@
     "price": "R$ 1.200,00",
     "url": "https://ssimoveismg.com.br/imovel/apartamento-no-bairro-centro-pirapora-aluguel-RS1200/202532",
     "status": "UNCHECKED"
+  },
+  "antonio-240": {
+    "id": "antonio-240",
+    "site": "Antonio Vieira Imóveis",
+    "title": "Imóvel Comercial para Aluguel — Santo Antônio, Pirapora - MG",
+    "price": "R$ 1.850,00",
+    "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/240-imovel-comercial-aluguel-santo-antonio-pirapora-mg.html",
+    "address": "Santo Antônio",
+    "status": "UNCHECKED"
   }
 }
