@@ -1100,5 +1100,14 @@
     "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/240-imovel-comercial-aluguel-santo-antonio-pirapora-mg.html",
     "address": "Santo Antônio",
     "status": "UNCHECKED"
+  },
+  "alpha-413": {
+    "id": "alpha-413",
+    "site": "Alpha Imóveis",
+    "title": "Rua Ceci do Carmo Machado Lagoeiro — Cicero Passos, Pirapora - MG",
+    "price": "R$ 1.700,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/413-casa-aluguel-cicero-passos-pirapora-mg.html",
+    "address": "Cicero Passos",
+    "status": "UNCHECKED"
   }
 }
