@@ -1109,5 +1109,23 @@
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/413-casa-aluguel-cicero-passos-pirapora-mg.html",
     "address": "Cicero Passos",
     "status": "UNCHECKED"
+  },
+  "alpha-106": {
+    "id": "alpha-106",
+    "site": "Alpha Imóveis",
+    "title": "Casa Industrial — Cinquentenário, Pirapora - MG",
+    "price": "R$ 1.000,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/106-casa-aluguel-cinquentenario-pirapora-mg.html",
+    "address": "Cinquentenário",
+    "status": "UNCHECKED"
+  },
+  "alpha-462": {
+    "id": "alpha-462",
+    "site": "Alpha Imóveis",
+    "title": "Padre Paulo — Bom Jesus, Pirapora - MG",
+    "price": "R$ 1.500,00",
+    "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/462-casa-aluguel-bom-jesus-pirapora-mg.html",
+    "address": "Bom Jesus",
+    "status": "UNCHECKED"
   }
 }
