@@ -1136,5 +1136,14 @@
     "url": "https://www.alphaimoveispirapora.com.br/detalhes-imovel/577-casa-aluguel-nova-pirapora-pirapora-mg.html",
     "address": "Nova Pirapora",
     "status": "UNCHECKED"
+  },
+  "antonio-242": {
+    "id": "antonio-242",
+    "site": "Antonio Vieira Imóveis",
+    "title": "Casa para Aluguel — SAO GERALDO, Pirapora - MG",
+    "price": "R$ 850,00",
+    "url": "https://www.antoniovieiraimoveis.com.br/detalhes-imovel/242-casa-aluguel-sao-geraldo-pirapora-mg.html",
+    "address": "SAO GERALDO",
+    "status": "UNCHECKED"
   }
 }
